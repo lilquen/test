@@ -8,7 +8,7 @@ headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64); AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
     'host': 'www.qzrc.com'
     }
-for i in range(5):
+for i in range(50):
     print("\nthis is "+ str(i+1)+ " pages")
     i = str(i)
     r = requests.get(url+i, headers = headers)
